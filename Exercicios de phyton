@@ -1,0 +1,18 @@
+nome = input('digite seu nome: ')
+Idade = input('digite sua idade: ')
+
+if nome and Idade: 
+    print(f"seu nome é {nome}")
+    print(f"seu nome ao contrario é {nome[::-1]}")
+    print(f"Seu nome tem {len(nome)} letra")
+    print(f"A primeira letra do seu nome é {nome[0]}")
+    print(f"A ultima letra do seu nome é {nome[-1]}")
+    
+    if ' ' in nome:
+        print('contem espaços no seu nome')
+        
+    else:
+         print('NÃO contem espaços no seu nome')
+    
+else:
+    print('desculpe você não digitou nada')
